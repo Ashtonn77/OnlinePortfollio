@@ -1,0 +1,28 @@
+@charset "utf-8";
+
+/*Global/Desktop view*/
+header {
+    background-color: rgba(94,94,94,0.47);
+    padding-top: 10px;
+    padding-left: 19px;
+    padding-right: 19px;
+    padding-bottom: 10px;
+}
+.container {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/*Tblet view*/
+@media (min-width: 401px) and (max-width: 768px){
+}
+
+
+
+@media (max-width: 400px){
+
+
+
+}
