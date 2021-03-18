@@ -13,16 +13,83 @@ header {
     margin-left: auto;
     margin-right: auto;
 }
+nav {
+    float: right;
+}
+.mobile-view {
+    display: none;
+}
+.desktop-view ul li  {
+    list-style-type: none;
+    display: inline-block;
+}
+.desktop-view ul li a  {
+    list-style-type: none;
+    display: inline-block;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    padding-right: 43px;
+    padding-left: 43px;
+    text-decoration: none;
+    color: #E8E8E8;
+    font-weight: 600;
+}
+body {
+    font-family: josefin-sans;
+    font-style: normal;
+    font-weight: 100;
+
+}
+
+.desktop-view {
+    margin-top: -6px;
+}
+
+.btn-red {
+    background-color: #FF6138;
+}
+.btn-green {
+    background-color: #00A388;
+}
+.btn-blue {
+    background-color: #237FCB;
+}
 
 
-/*Tblet view*/
+
+
+
+/*Tablet view*/
 @media (min-width: 401px) and (max-width: 768px){
+.mobile-view {
+    display: block;
+}
+.desktop-view {
+    display: none;
+}
+
+.expand {
+   display: block;
+}
+
+
 }
 
 
 
 @media (max-width: 400px){
+.mobile-view {
+    display: block;
+}
+.desktop-view {
+    display: none;
+}
+
+.expand {
+    display: block;
+}
 
 
-
+}
+.btn-b {
 }
